@@ -1,0 +1,31 @@
+
+PS C:\Users\ancxta\Desktop\Node> curl https://jsonplaceholder.typicode.com/posts/1/comments -v                                  
+DETTAGLIATO: GET with 0-byte payload
+DETTAGLIATO: received -1-byte response of content type application/json; charset=utf-8
+
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : [
+                      {
+                        "postId": 1,
+                        "id": 1,
+                        "name": "id labore ex et quam laborum",
+                        "email": "Eliseo@gardner.biz",
+                        "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo...
+RawContent        : HTTP/1.1 200 OK
+                    Transfer-Encoding: chunked
+                    Connection: keep-alive
+                    X-Ratelimit-Limit: 1000
+                    X-Ratelimit-Remaining: 999
+                    X-Ratelimit-Reset: 1664431841
+                    Vary: Origin, Accept-Encoding
+                    Access-Control-A...
+Forms             : {}
+Headers           : {[Transfer-Encoding, chunked], [Connection, keep-alive], [X-Ratelimit-Limit, 1000], 
+                    [X-Ratelimit-Remaining, 999]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : System.__ComObject
+RawContentLength  : 1510
